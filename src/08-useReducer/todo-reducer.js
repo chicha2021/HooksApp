@@ -10,15 +10,17 @@ export const todoReducer = (initialState = [], action) => {
 
         case 'HANDLE_TODO':
             console.log(action.payload)
-            return initialState.map(function (e) {
+            const state =  initialState.map(function (e) {
                 if (e.id === action.payload) {
-                    return e.done = true;
+                    return {
+                        ...e,
+                        done: true
+                    };
                 };
+                return e;
             });
-        // return [
-        //     ...initialState,
-        //     initialState.
-        // ];
+            console.log(state)
+        return state;
 
         default:
             return initialState;

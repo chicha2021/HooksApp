@@ -18,7 +18,7 @@ export const Quote = ({ name, species, image }) => {
                 <footer className="blackquote-footer">{ species }</footer>
                 <img src={ image } alt="Foto" />
             </blockquote>
-            <code>{ JSON.stringify(boxSize) }</code>
+            {/* <code>{ JSON.stringify(boxSize) }</code> */}
         </>
     )
 };

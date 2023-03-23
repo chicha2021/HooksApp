@@ -2,57 +2,10 @@ import { useTodo } from '../hooks/useTodo';
 import { TodoAdd } from './TodoAdd';
 import { TodoList } from './TodoList';
 
-// const initialState = [
-//     {
-//         id: 1231231,
-//         description: "Ir al super",
-//         done: false,
-//     },
-//     {
-//         id: 234234,
-//         description: "Ir a la facu",
-//         done: false,
-//     }
-// ];
-
 
 export const TodoApp = () => {
     
-    // const initStorage  = () => {
-    //     return JSON.parse(localStorage.getItem('state')) || [];
-    // };
-    // const [state, dispatch] = useReducer(todoReducer, initialState, initStorage);
     const { state, pendingTodos, finishedTodos, allTodos, handleTodo, deleteTodo, addNewTodo } = useTodo();
-    // const addNewTodo = ( todo ) => { 
-    //     const action = {
-    //         type: 'ADD_TODO',
-    //         payload: todo
-    //     };
-    //     dispatch( action );
-    // };
-
-    // const deleteTodo = ( id ) => { 
-    //     const action = {
-    //         type: 'DELETE_TODO',
-    //         payload: id
-    //     };
-    //     dispatch( action );
-    // };
-
-    // const handleTodo = ( id, done ) => {
-    //     dispatch({
-    //         type: 'HANDLE_TODO',
-    //         payload: id, done
-    //     });
-    // };
-
-    // useEffect(() => {
-    //     console.log(localStorage.getItem('state'))
-    // }, []);
-
-    // useEffect(() => {
-    //   localStorage.setItem('state', JSON.stringify( state ));
-    // }, [ state ]);
     
     return (
         <div>

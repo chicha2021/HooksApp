@@ -25,10 +25,10 @@ export const useTodo = ( ) => {
         dispatch( action );
     };
 
-    const handleTodo = ( id, done ) => {
+    const handleTodo = ( id ) => {
         dispatch({
             type: 'HANDLE_TODO',
-            payload: id, done
+            payload: id
         });
     };
 

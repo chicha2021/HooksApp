@@ -23,6 +23,7 @@ export const useFetch = (url) => {
       error: null
     });
   }
+  
   useEffect(() => {
     getFetch();
   }, [url])

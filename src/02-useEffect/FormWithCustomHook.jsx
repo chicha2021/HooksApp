@@ -19,7 +19,7 @@ export const FormWithCustomHook = () => {
 
             <input 
                 type="text" 
-                className="form-control"
+                classNameName="form-control"
                 placeholder="Username"
                 name="username"
                 value={ username }
@@ -27,7 +27,7 @@ export const FormWithCustomHook = () => {
             />
             <input 
                 type="email" 
-                className="form-control mt-2"
+                classNameName="form-control mt-2"
                 placeholder="fernando@google.com"
                 name="email"
                 value={ email }
@@ -35,13 +35,13 @@ export const FormWithCustomHook = () => {
             />
             <input 
                 type="password" 
-                className="form-control mt-2"
+                classNameName="form-control mt-2"
                 placeholder="Contraseña"
                 name="password"
                 value={ password }
                 onChange={ onInputChange }
             />
-            <button onClick={ onResetForm } className="btn btn-primary mt-2">Borrar</button>
+            <button onClick={ onResetForm } classNameName="btn btn-primary mt-2">Borrar</button>
         </>
     )
 }

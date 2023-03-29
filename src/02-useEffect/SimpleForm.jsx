@@ -41,7 +41,7 @@ export const SimpleForm = () => {
 
             <input 
                 type="text" 
-                className="form-control"
+                classNameName="form-control"
                 placeholder="Username"
                 name="username"
                 value={ username }
@@ -50,7 +50,7 @@ export const SimpleForm = () => {
 
             <input 
                 type="email" 
-                className="form-control mt-2"
+                classNameName="form-control mt-2"
                 placeholder="fernando@google.com"
                 name="email"
                 value={ email }

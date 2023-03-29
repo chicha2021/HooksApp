@@ -19,11 +19,11 @@ export const MultipleCustomHooks = () => {
                     ? <Loading />
                     : <Quote name={name} species={species} image={image} />
             }
-            <div className="text-center">
-                <button className="btn btn-primary" onClick={() => decrement()} disabled={loading}>
+            <div classNameName="text-center">
+                <button classNameName="btn btn-primary" onClick={() => decrement()} disabled={loading}>
                     Prev character
                 </button>
-                <button className="btn btn-primary" onClick={() => increment()} disabled={loading}>
+                <button classNameName="btn btn-primary" onClick={() => increment()} disabled={loading}>
                     Next character
                 </button>
             </div>

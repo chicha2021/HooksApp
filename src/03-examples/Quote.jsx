@@ -13,9 +13,9 @@ export const Quote = ({ name, species, image }) => {
     
     return (
         <>
-            <blockquote ref={ pRef } className="blockquote text-center">
-                <p className="mb-1">{ name }</p>
-                <footer className="blackquote-footer">{ species }</footer>
+            <blockquote ref={ pRef } classNameName="blockquote text-center">
+                <p classNameName="mb-1">{ name }</p>
+                <footer classNameName="blackquote-footer">{ species }</footer>
                 <img src={ image } alt="Foto" />
             </blockquote>
             {/* <code>{ JSON.stringify(boxSize) }</code> */}

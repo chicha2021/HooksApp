@@ -21,8 +21,8 @@ export const TodoAdd = ({ addTodo }) => {
     return (
         <>
             <form onSubmit={onSubmit}>
-                <input type="text" placeholder='¿Qué hay que hacer?' value={ description } name={"description"} onChange={onInputChange} className='form-control' />
-                <button type='submit' className='btn btn-outline-primary mt-4'>Agregar</button>
+                <input type="text" placeholder='¿Qué hay que hacer?' value={ description } name={"description"} onChange={onInputChange} classNameName='form-control' />
+                <button type='submit' classNameName='btn btn-outline-primary mt-4'>Agregar</button>
             </form>
         </>
     )

@@ -4,7 +4,7 @@ import { TodoItem } from './TodoItem'
 
 export const TodoList = ({ state, deleteTodo, handleTodo }) => {
     return (
-        <ul className='list-group'>
+        <ul classNameName='list-group'>
             {
                 state?.map(({ id, description, done }, ix) => (
                     <TodoItem

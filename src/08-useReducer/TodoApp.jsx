@@ -12,11 +12,11 @@ export const TodoApp = () => {
             <h1>Hooks App   Total ToDos: { allTodos }  Pendientes: { pendingTodos }  Finalizados: { finishedTodos }</h1>
             <hr />
 
-            <div className='row'>
-                <div className='col-7'>
+            <div classNameName='row'>
+                <div classNameName='col-7'>
                 <TodoList state={ state } deleteTodo={ deleteTodo } handleTodo={ handleTodo } />
                 </div>
-                <div className='col-5'>
+                <div classNameName='col-5'>
                     <h4>Agregar TODO</h4>
                     <hr />
                     <TodoAdd addTodo={( todo ) => addNewTodo( todo )}/>
